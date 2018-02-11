@@ -4,9 +4,9 @@ This site hold three pages:
 
 Page-1 shows my profile picture, and about my university and contains videos related to the university.
 
-Page-2 is basically a type of application that calculates age of a person by reading the Date of Birth and results it in the form of Hours, Minutes and Seconds.
+Page-2 is basically a type of application that calculates age of a person by reading the Date of Birth and results it in the form of Days, Hours and Minutes.
 
-page-3 prrovides my link to my profiles on Linked-in, GitHub and BitBucket and also asks for the person viewing my site for their contact details.
+page-3 provides link to my profiles on Linked-in, GitHub and BitBucket and also asks for the person viewing my site for their contact details.
 
 
 

@@ -22,6 +22,12 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <script type="text/javascript">
+          
+          
+        </script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -37,7 +43,7 @@
             <span class="icon-bar"></span>
           </button>
          
-          <a class="navbar-brand" href="#">My Logo</a>
+          <!-- <a class="navbar-brand" href="#">My Logo</a> -->
           <ul class="nav navbar-nav">
               <li><a href="index.html">Home</a></li>
               <li><a href="agecalc.html">Age Calculator</a></li>
@@ -68,18 +74,19 @@
     
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron" style=" background-color:#ccc; width: auto">
-        <h2 class="ageCalHeading">Calculate your age in hours, minutes and seconds</h2>
+        <h2 class="ageCalHeading">Calculate your age in Days, Hours and Minutes</h2>
       <div class="container">
             <div style="text-align: center">
         <form role="form">
                 <div >
                     <label>Enter your date of birth: </label>
                 <input type="date" placeholder="Date" id="datePicker">
+                <!-- <input type="button"  value="Submit"> -->
                 </div>
                         <!-- <div style="padding: 20px 0px 20px 160px"><button type="submit" class="btn btn-success">Submit</button></div> -->
                 
 
-                <div id="ageDisplay">        Your Age is : </div> 
+                <div>        Your Age is : <span id="ageDisplay"></span> </div> 
             </form>
     </div>
 
@@ -89,16 +96,16 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-            <div class="ageCalbtn"><p>Hours</p></div>
+            <div class="ageCalbtn" onclick="daysCalc()"><p>Days</p></div>
 
 
          
         </div>
         <div class="col-md-4">
-                <div class="ageCalbtn"><p>Minutes</p></div>
+                <div class="ageCalbtn" onclick="hoursCalc()"><p>Hours</p></div>
        </div>
         <div class="col-md-4">
-                <div class="ageCalbtn"><p>Seconds</p></div>
+                <div class="ageCalbtn" onclick="minutesCalc()"><p>Minutes</p></div>
         </div>
       </div>
 

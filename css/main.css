@@ -30,7 +30,6 @@ input[type="email"]{
 }
 
 input[type="date"]{
-    width: 500px;
     border-radius: 5px;
     padding: 8px;
     margin: 15px
@@ -39,12 +38,14 @@ input[type="date"]{
 .ageCalHeading{
     text-align:center; 
     margin-bottom: 40px;
+    margin-top: 60px;
 }
 
 .ageCalbtn{
     border: solid 1px #5bc0de; 
     border-radius: 5px; 
     background-color: #5bc0de;
+    margin-bottom: 20px;
 }
 
 .ageCalbtn p{
@@ -58,9 +59,9 @@ input[type="date"]{
 
 
 #ageDisplay{
-    padding: 20px 0px 20px 160px;
+    /* padding: 20px 0px 20px 160px; */
     font-weight: bold;
-    font-size: 24px;
+    /* font-size: 24px; */
 }
 
 #datePicker{
